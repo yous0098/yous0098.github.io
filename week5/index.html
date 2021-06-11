@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<!-- add link tag -->
+<link rel="stylesheet" href="css/main.css">
 <title> COFFE IS BEST- home</title>
 </head>
 <body>
@@ -11,21 +13,21 @@
         <!-- adding nav bar -->
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="contact.html" class="current">Contact us</a></li>
             </ul>
         </nav>
 </header>
 <main>
     <!-- adding on page link -->
-    <a href="#treatofweek">Treat of the week</a>
+    <a href="#treatofweek" class="orange-link">Treat of the week</a>
     <article>
     <h2>Our Story</h2>
     <!-- Adding an image -->
     <img src="images/coffee-shop.jpg" alt="coffee cup in a pile of coffee bean">
     <p>We are <em>family owned business</em>.Reggie is the <abbr title="cheif exe officer"> ceo</abbr>and head of barista shop.Maro is the pastry chef and inchsrge of bake shop. celebrating their 10<sup>th</sup> aniversory.    
     </p>
-    <blockquote>
+    <blockquote class="large-text">
         we love coffee <cite> reggie and maria</cite>
     </blockquote>
     <hr>
@@ -76,12 +78,12 @@
             </dd>
         </dl>
         <!-- adding external link -->
-        <a href="https://www.yummly.com/recipe/Banana-Bread-1033797?prm-v1" target="_blank">Get the recipie</a>
+        <a href="https://www.yummly.com/recipe/Banana-Bread-1033797?prm-v1" target="_blank" class="orange-link large-text">Get the recipie</a>
     </section>
     <!-- ADDING TABLE SECTION -->
     <section>
         <h3> Menu specials</h3>
-        <table border>
+        <table>
            <tr>
                <th colspan="2">items</th>
                <th rowspan="2">price</th>
@@ -110,7 +112,7 @@
         </table>
     </section>
 </main>
-<footer>
+<footer class="site-footer">
     Copyright &copy; Reggi &apos;s coffee shop 2021
 </footer>
 </body>
