@@ -1,0 +1,49 @@
+body{     
+    font-size: 18px;
+}
+/* selecting multiple elements */
+h1,h2,h3,h4{
+    background-color: burlywood;
+}
+.site-title{
+    color: rgb(21, 93, 226);
+}
+/* Adding id to image */
+
+ #my-image{
+         
+    box-shadow: 0px 0px 2px 1px black;
+
+ }
+
+ /* nth child selector */
+ .site-square li:nth-child(odd) 
+  {
+    background-color: blue;
+  }
+  
+
+/* adding a square to list items */
+
+.site-square{
+    list-style: square;
+    }   
+          
+ /* Styling the nav */
+ nav ul a,
+ nav ul li
+ {         
+     text-decoration: none;
+     list-style: none;
+     
+}
+ nav ul a{
+         border: 1px solid red;
+         background: royalblue;
+
+ }
+     
+ nav ul li a:hover,
+ nav ul li a:focus{
+         background-color: purple;
+  }
