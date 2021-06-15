@@ -42,7 +42,12 @@ nav ul a{
 }
 /* direct child selector */
 article>p {
-    font-size: 25px;
+    /* css typography properties */
+    font-weight: bold;
+    line-height: 1.5;   
+    text-transform: lowercase;
+    font-size: 24px;
+    text-align:center;
 }
 /* adjacen */
 h3+ul{
