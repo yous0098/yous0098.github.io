@@ -1,5 +1,6 @@
 body{     
     font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* selecting multiple elements */
 h1,h2,h3,h4{
@@ -38,12 +39,12 @@ h1,h2,h3,h4{
      
 }
  nav ul a{
-         border: 1px solid red;
+         border: 1px solid rgb(224, 157, 157);
          background: royalblue;
 
  }
      
  nav ul li a:hover,
  nav ul li a:focus{
-         background-color: purple;
+         background-color: rgb(238, 182, 238);
   }
