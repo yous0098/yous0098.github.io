@@ -24,6 +24,8 @@ nav ul{
 }
 /* selecting child elemts multiple level */
 nav ul a{
+    font-size: 1.5rem;
+    /* 1.5x16 = 24 */
     color:darkkhaki;
     text-decoration: none;
 }
@@ -32,6 +34,10 @@ nav ul a{
     background: orange url(../images/bread.jpg) no-repeat center center;
  background-size: contain;
  color: whitesmoke;
+ font-size: 1.25rem;
+ /* 1.25x16 = 20px */
+ /* padding: 1em; */
+ /* 1x20 = 20px */
 }
 
 /* adding class */
